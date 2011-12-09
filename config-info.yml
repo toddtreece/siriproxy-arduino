@@ -1,0 +1,15 @@
+# Example configuration options that can be placed in your main SiriProxy config.yml
+
+############################################
+# NOTICE: Modifying these options in this 
+#         file has no effect. You must put 
+#         them in SiriProxy's config.yml!
+############################################
+
+    - name: 'Arduino' #don't touch
+      path: 'git://github.com/toddtreece/siriproxy-arduino.git' #don't touch
+      host: '10.0.1.8' #set your arduino IP here
+      image_prefix: 'http://media.i.tv.s3.amazonaws.com/channels/black/46x35/' #don't touch
+      episode_prefix: 'http://tvlistings.aol.com/episodes/' #don't touch
+      listing_url: 'http://tvlistings.aol.com/listings/co/boulder/comcast/CO05419' #set the url to the aol.tv listing page here
+      custom_channels: { cnn: 38, discovery: 16, history: 36, fx: 27, amc: 64 } #set these to channel names you would like to map to numbers

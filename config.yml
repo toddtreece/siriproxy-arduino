@@ -1,8 +1,0 @@
-port: 443
-log_level: 1
-plugins:
-
-    - name: 'Arduino'
-      path: './plugins/siriproxy-arduino'
-      host: '10.0.1.8' 
-
